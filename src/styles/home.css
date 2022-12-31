@@ -1,0 +1,70 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #DA70D6;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+code {
+  font-family: 'Fira Code', monospace;
+}
+
+.center {
+  text-align: center;
+}
+
+.profile-image {
+  display: block;
+  margin: auto;
+  max-height: auto;
+  width: 13em;
+  border-radius: 50%;
+}
+
+.profile-heading {
+  text-align: center;
+  font-weight: 600;
+}
+
+.small-separation {
+  margin-top: 1em;
+}
+
+.medium-separation {
+  margin-top: 2em;
+}
+
+.title-text {
+  font-size: 1.2em;
+}
+
+.subtitle-text {
+  font-size: 1.1em;
+}
+
+.small-text {
+  font-size: 0.85em;
+}
+
+.grey {
+  color: #767676;
+}
+
+@media (min-width: 550px) {
+  .right-on-large {
+    float: right;
+  }
+}
+
+.full-width {
+  width: 100%;
+}
